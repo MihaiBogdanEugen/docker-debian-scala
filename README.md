@@ -8,9 +8,10 @@
 * ```stretch-slim-8u144-2.12.3```, ```latest``` _\([stretch-slim-8u144-2.12.3/Dockerfile]\)_
 
 #### All tag names follow the naming convention:
+
 _```debian_image_tag```_ + '-' + _```java_version```_ + '-' + _```scala_version_```_
 
-### Usage
+### Usage:
 
 Build the image
 ```shell
