@@ -1,5 +1,5 @@
-# Start from debian jesse-slim and oracle jdk 8u144
-FROM mbe1224/debian-oraclejdk:jesse-slim-8u144
+# Start from debian stretch-slim and oracle jdk 8u144
+FROM mbe1224/debian-oraclejdk:stretch-slim-8u144
 
 # Setup SCALA_HOME
 ENV SCALA_HOME=/usr/share/scala
