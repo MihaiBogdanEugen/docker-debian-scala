@@ -2,14 +2,14 @@
 
 ### Supported tags and respective Dockerfile links:
 
-* ```jessie-slim-jdk8-2.11``` _\([jessie-slim-jdk8-2.11/Dockerfile]\)_
-[![](https://images.microbadger.com/badges/image/mbe1224/docker-debian-scala:jessie-slim-jdk8-2.11.svg)](https://microbadger.com/images/mbe1224/docker-debian-scala:jessie-slim-jdk8-2.11 "")
-* ```jessie-slim-jdk8-2.12``` _\([jessie-slim-jdk8-2.11/Dockerfile]\)_
-[![](https://images.microbadger.com/badges/image/mbe1224/docker-debian-scala:jessie-slim-jdk8-2.11.svg)](https://microbadger.com/images/mbe1224/docker-debian-scala:jessie-slim-jdk8-2.11 "")
-* ```stretch-slim-jdk8-2.11``` _\([stretch-slim-jdk8-2.11/Dockerfile]\)_
-[![](https://images.microbadger.com/badges/image/mbe1224/docker-debian-scala:stretch-slim-jdk8-2.11.svg)](https://microbadger.com/images/mbe1224/docker-debian-scala:stretch-slim-jdk8-2.11 "")
-* ```stretch-slim-jdk8-2.12```, ```latest``` _\([stretch-slim-jdk8-2.12/Dockerfile]\)_ 
-[![](https://images.microbadger.com/badges/image/mbe1224/docker-debian-scala:stretch-slim-jdk8-2.12.svg)](https://microbadger.com/images/mbe1224/docker-debian-scala:stretch-slim-jdk8-2.12 "")
+* ```jessie-slim-2.11``` _\([jessie-slim-2.11/Dockerfile]\)_
+[![](https://images.microbadger.com/badges/image/mbe1224/docker-debian-scala:jessie-slim-2.11.svg)](https://microbadger.com/images/mbe1224/docker-debian-scala:jessie-slim-2.11 "")
+* ```jessie-slim-2.12``` _\([jessie-slim-2.11/Dockerfile]\)_
+[![](https://images.microbadger.com/badges/image/mbe1224/docker-debian-scala:jessie-slim-2.11.svg)](https://microbadger.com/images/mbe1224/docker-debian-scala:jessie-slim-2.11 "")
+* ```stretch-slim-2.11``` _\([stretch-slim-2.11/Dockerfile]\)_
+[![](https://images.microbadger.com/badges/image/mbe1224/docker-debian-scala:stretch-slim-2.11.svg)](https://microbadger.com/images/mbe1224/docker-debian-scala:stretch-slim-2.11 "")
+* ```stretch-slim-2.12```, ```latest``` _\([stretch-slim-2.12/Dockerfile]\)_ 
+[![](https://images.microbadger.com/badges/image/mbe1224/docker-debian-scala:stretch-slim-2.12.svg)](https://microbadger.com/images/mbe1224/docker-debian-scala:stretch-slim-2.12 "")
 
 #### All tag names follow the naming convention:
 
@@ -36,9 +36,9 @@ docker build -t docker-debian-scala /stretch-slim/2.12/
 * [MIT License]
 * [Oracle Binary Code License Agreement]
 
-   [jessie-slim-jdk8-2.11/Dockerfile]: <https://github.com/MihaiBogdanEugen/docker-debian-scala/blob/master/jessie-slim/2.11/Dockerfile>
-   [jessie-slim-jdk8-2.12/Dockerfile]: <https://github.com/MihaiBogdanEugen/docker-debian-scala/blob/master/jessie-slim/2.12/Dockerfile>
-   [stretch-slim-jdk8-2.11/Dockerfile]: <https://github.com/MihaiBogdanEugen/docker-debian-scala/blob/master/stretch-slim/2.11/Dockerfile>
-   [stretch-slim-jdk8-2.12/Dockerfile]: <https://github.com/MihaiBogdanEugen/docker-debian-scala/blob/master/stretch-slim/2.12/Dockerfile>
+   [jessie-slim-2.11/Dockerfile]: <https://github.com/MihaiBogdanEugen/docker-debian-scala/blob/master/jessie-slim/2.11/Dockerfile>
+   [jessie-slim-2.12/Dockerfile]: <https://github.com/MihaiBogdanEugen/docker-debian-scala/blob/master/jessie-slim/2.12/Dockerfile>
+   [stretch-slim-2.11/Dockerfile]: <https://github.com/MihaiBogdanEugen/docker-debian-scala/blob/master/stretch-slim/2.11/Dockerfile>
+   [stretch-slim-2.12/Dockerfile]: <https://github.com/MihaiBogdanEugen/docker-debian-scala/blob/master/stretch-slim/2.12/Dockerfile>
    [MIT License]: <https://raw.githubusercontent.com/MihaiBogdanEugen/debian-scala/master/LICENSE>
    [Oracle Binary Code License Agreement]: <https://raw.githubusercontent.com/MihaiBogdanEugen/debian-scala/master/Oracle_Binary_Code_License_Agreement%20for%20the%20Java%20SE%20Platform_Products_and_JavaFX>
