@@ -1,6 +1,6 @@
-## Docker Debian images with Scala
+## Docker Debian images with Scala ##
 
-### Supported tags and respective Dockerfile links:
+### Supported tags and respective Dockerfile links: ###
 
 * ```jessie-slim-2.11``` _\([jessie-slim-2.11/Dockerfile]\)_
 [![](https://images.microbadger.com/badges/image/mbe1224/docker-debian-scala:jessie-slim-2.11.svg)](https://microbadger.com/images/mbe1224/docker-debian-scala:jessie-slim-2.11 "")
@@ -11,18 +11,18 @@
 * ```stretch-slim-2.12```, ```latest``` _\([stretch-slim-2.12/Dockerfile]\)_ 
 [![](https://images.microbadger.com/badges/image/mbe1224/docker-debian-scala:stretch-slim-2.12.svg)](https://microbadger.com/images/mbe1224/docker-debian-scala:stretch-slim-2.12 "")
 
-#### All tag names follow the naming convention:
+#### All tag names follow the naming convention: ###
 
 ```debian_image_tag``` + '-' + ```scala_version```
 
-### Usage:
+### Usage: ###
 
 Build the image
 ```shell
-docker build -t docker-debian-scala /stretch-slim/2.12/
+docker build -t debian-scala /stretch-slim/2.12/
 ```
 
-### About this image:
+### About this image: ###
 
 - Currently supporting scala versions **2.11.11** and **2.12.4**
 - Debian "slim" image variant
@@ -31,7 +31,7 @@ docker build -t docker-debian-scala /stretch-slim/2.12/
 - SHA 256 sum checks for all downloads
 - JAVA\_HOME and SCALA\_HOME environment variables set up
 
-### License:
+### Dual licensed under: ###
 
 * [MIT License]
 * [Oracle Binary Code License Agreement]

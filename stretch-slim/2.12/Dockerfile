@@ -1,5 +1,5 @@
 # Start from debian stretch-slim and oracle jdk 8
-FROM mbe1224/docker-debian-oracle-java:stretch-slim-jdk8
+FROM mbe1224/debian-oracle-java:stretch-slim-jdk8
 
 # Setup SCALA_HOME
 ENV SCALA_HOME=/usr/share/scala
