@@ -1,15 +1,15 @@
-## Docker Debian images with Scala ##
+## Docker Debian images with [Scala] ##
 
 ### Supported tags and respective Dockerfile links: ###
 
 * ```jessie-slim-2.11``` _\([jessie-slim-2.11/Dockerfile]\)_
-[![](https://images.microbadger.com/badges/image/mbe1224/docker-debian-scala:jessie-slim-2.11.svg)](https://microbadger.com/images/mbe1224/docker-debian-scala:jessie-slim-2.11 "")
+[![](https://images.microbadger.com/badges/image/mbe1224/debian-scala:jessie-slim-2.11.svg)](https://microbadger.com/images/mbe1224/debian-scala:jessie-slim-2.11 "")
 * ```jessie-slim-2.12``` _\([jessie-slim-2.11/Dockerfile]\)_
-[![](https://images.microbadger.com/badges/image/mbe1224/docker-debian-scala:jessie-slim-2.11.svg)](https://microbadger.com/images/mbe1224/docker-debian-scala:jessie-slim-2.11 "")
+[![](https://images.microbadger.com/badges/image/mbe1224/debian-scala:jessie-slim-2.11.svg)](https://microbadger.com/images/mbe1224/debian-scala:jessie-slim-2.11 "")
 * ```stretch-slim-2.11``` _\([stretch-slim-2.11/Dockerfile]\)_
-[![](https://images.microbadger.com/badges/image/mbe1224/docker-debian-scala:stretch-slim-2.11.svg)](https://microbadger.com/images/mbe1224/docker-debian-scala:stretch-slim-2.11 "")
+[![](https://images.microbadger.com/badges/image/mbe1224/debian-scala:stretch-slim-2.11.svg)](https://microbadger.com/images/mbe1224/debian-scala:stretch-slim-2.11 "")
 * ```stretch-slim-2.12```, ```latest``` _\([stretch-slim-2.12/Dockerfile]\)_ 
-[![](https://images.microbadger.com/badges/image/mbe1224/docker-debian-scala:stretch-slim-2.12.svg)](https://microbadger.com/images/mbe1224/docker-debian-scala:stretch-slim-2.12 "")
+[![](https://images.microbadger.com/badges/image/mbe1224/debian-scala:stretch-slim-2.12.svg)](https://microbadger.com/images/mbe1224/debian-scala:stretch-slim-2.12 "")
 
 #### All tag names follow the naming convention: ###
 
@@ -36,6 +36,7 @@ docker build -t debian-scala /stretch-slim/2.12/
 * [MIT License]
 * [Oracle Binary Code License Agreement]
 
+   [Scala]: <https://www.scala-lang.org/>
    [jessie-slim-2.11/Dockerfile]: <https://github.com/MihaiBogdanEugen/docker-debian-scala/blob/master/jessie-slim/2.11/Dockerfile>
    [jessie-slim-2.12/Dockerfile]: <https://github.com/MihaiBogdanEugen/docker-debian-scala/blob/master/jessie-slim/2.12/Dockerfile>
    [stretch-slim-2.11/Dockerfile]: <https://github.com/MihaiBogdanEugen/docker-debian-scala/blob/master/stretch-slim/2.11/Dockerfile>
