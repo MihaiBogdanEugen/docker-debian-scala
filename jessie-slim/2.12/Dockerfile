@@ -4,9 +4,9 @@ FROM mbe1224/debian-oracle-java:jessie-slim-jdk8
 # Setup SCALA_HOME
 ENV SCALA_HOME=/usr/share/scala
 
-# Install Scala 2.12.4
-RUN SCALA_VERSION=2.12.4 && \
-    SCALA_SHA256_SUM=9554a0ca31aa8701863e881281b1772370a87e993ce785bb24505f2431292a21 && \
+# Install Scala 2.12.6
+RUN SCALA_VERSION=2.12.6 && \
+    SCALA_SHA256_SUM=1ac7444c5a85ed1ea45db4a268ee9ea43adf80e7f5724222863afb5492883416 && \
     apt-get update && \
     apt-get -y install wget && \
     cd "/tmp" && \
