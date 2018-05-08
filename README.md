@@ -24,7 +24,7 @@ docker build -t debian-scala /stretch-slim/2.12/
 
 ### About this image: ###
 
-- Currently supporting scala versions **2.11.12** and **2.12.4**
+- Currently supporting scala versions **2.11.12** and **2.12.6**
 - Debian "slim" image variant
 - Oracle JDK8 addded without MissionControl, VisualVM, JavaFX, ReadMe files, source archives, etc.
 - Oracle Java Cryptography Extension added
